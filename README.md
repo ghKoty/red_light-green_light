@@ -37,6 +37,8 @@ Termux
 
     pip install yeelight
 
+Open main.py and set bulb local IP address
+
 Save code main.py on your device and open it by Python
 
 Linux
@@ -45,6 +47,8 @@ Linux
 Python installed on linux and you need only install yeelight module
 
     pip install yeelight
+
+Open main.py and set bulb local IP address
 
 Save code main.py on your PC and open it by Python
 
