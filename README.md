@@ -37,7 +37,7 @@ Termux
 
     pip install yeelight
 
-Save code main.py on your device and open it
+Save code main.py on your device and open it by Python
 
 Linux
 ---
@@ -46,7 +46,7 @@ Python installed on linux and you need only install yeelight module
 
     pip install yeelight
 
-Save code main.py on your PC and open it
+Save code main.py on your PC and open it by Python
 
 # Rules of the game
  * if light is red player must stop
