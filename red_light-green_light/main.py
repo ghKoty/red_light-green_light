@@ -1,14 +1,17 @@
 #red light - green light
 #by ghKoty
 #WARNING: for playing this game you need YeeLight RGB bulb, turn on LAN control in bulb settings and write correct local IP adress
-bulb_ip = "192.168.0.103" #  local IP adress of your YeeLight RGB bulb
+bulb_ip = "192.168.0.103" #  local IP adress of your YeeLight RGB bulb leave empty to ask every time
 
 
 #code:
 from yeelight import *
 from time import sleep
 from random import randint
+if bulb_ip == "":
+    bulb_ip = input("Bulb IP: ")
 b = Bulb(bulb_ip)
+b.start_music() # start music mode, to get unlimited packages
 b.auto_on = True
 b.effect = "sudden"
 b.set_brightness(100)
