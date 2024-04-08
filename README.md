@@ -5,7 +5,7 @@
     #by ghKoty
  __from code__
  
- __WRITED ON PYTHON__
+ __WRITEN ON PYTHON__
  ___
 # How to install
 To install this progect you need YeeLight RGB smart bulb
