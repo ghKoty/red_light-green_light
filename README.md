@@ -1,14 +1,12 @@
 # red_light-green_light
-> it's my first game, writed for YeeLight lamp
+> it's my first game, written for Yeelight lamp
 
- __This progect is not licensed, but please, do not delete:__
-    #by ghKoty
- __from code__
+ __This project is licensed under the MIT license__
  
  __WRITTEN ON PYTHON__
  ___
 # How to install
-To install this progect you need YeeLight RGB smart bulb
+To install this project you need Yeelight RGB smart bulb
 
 I recommend to use phone for control this game
 
@@ -17,17 +15,13 @@ I use Termux
 Termux
 ---
 
-  If you doesn't have python on Termux, write:
+  If you doesn't have python in Termux, write:
 
     pkg install python
 
   If error write:
 
-    pkg update
-
-  Then:
-
-    pkg upgrade
+    pkg update && pkg upgrade
     
   Then repeat:
 
@@ -44,7 +38,7 @@ Save code main.py on your device and open it by Python
 Linux
 ---
 
-Python installed on linux and you need only install yeelight module
+Python installed on most Linux distributions and you only need to install yeelight module
 
     pip install yeelight
 
